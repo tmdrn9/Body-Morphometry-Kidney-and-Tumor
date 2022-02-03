@@ -33,7 +33,7 @@ Rank : 10/27
 
 3) Data Preprocessing 코드 구현
 
-4) Model train 및 test 코드 구현
+4) Model Train 및 Test 코드 구현
 
 5) 조사 및 여러 실험을 해보며 잘 되는 WW(Window Width:픽셀값의 범위)와 WL(Window Center:기준이 되는 픽셀값)을 찾기
 
@@ -41,14 +41,14 @@ Rank : 10/27
 
 7) 여러 Model 실험
 
-8) 배포 전 데이터가 3D였다는 점을 참고해 3D Model 적용
+8) 배포 전 데이터가 3D였다는 점을 참고해 데이터 3D로 재구성 하여 3D Model 적용
 <br>
 
 ## 알게된 점
 
 - Dicom format은 다양한 정보가 담겨있는 format으로 쓰고자 하는 정보만 뽑아 쓸 수 있다는 것
 
-- Segmentation model의 output channel은 class수와 같다는 것(처음에 이걸 몰라 많이 헤맸다)
+- Segmentation model의 output channel은 class수와 같다는 것 (처음에 이걸 몰라 많이 헤맸다)
 
 - Data에 따라 Augmentation이 악영향을 미칠수도 있다는 것
 
@@ -65,12 +65,12 @@ Rank : 10/27
 
 - 3D모델 적용을 통해 눈에 띄는 성능향상을 보였지만 다시 2D로 나눠 제출 format에 맞추는 것을 실패
 
-- 3D모델을 가져다 인풋,아웃풋에 대한 layer만 수정했을뿐 별다른 customizing을 못 한 것
+- 3D모델을 가져다 인풋,아웃풋에 대한 layer만 수정했을 뿐 별다른 customizing을 못 한 것
 
 - 수상팀 코드공개를 안 해 다른 팀들이 어떻게 접근했는 지 알 수 없었던 것
 <br>
 
-## 향후계획
+## 향후 계획
 
 - 데이터 편향문제 해결방안을 찾아볼 것
 
